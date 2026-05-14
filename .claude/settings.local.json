@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/shaohuihui/wechat-sticker-maker/build.sh)",
+      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\('scripts/sticker_processor.py'\\).read\\(\\)\\); print\\('sticker_processor.py: OK'\\)\")",
+      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\('scripts/verify_package.py'\\).read\\(\\)\\); print\\('verify_package.py: OK'\\)\")"
+    ]
+  }
+}
